@@ -8,9 +8,62 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>CMU Anomaly Hunter Challenge</title>
+		<script
+			is:inline
+			defer
+			src="https://cloud.umami.is/script.js"
+			data-website-id="7899076f-1eca-4c1e-bb90-db959ce41077"></script>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="max-w-3xl mx-auto px-6 py-12 font-sans">
+		<header class="mb-12">
+			<a
+				href="https://cmudsc.com"
+				class="text-sm text-gray-500 hover:text-gray-800 transition-colors"
+			>
+				← Back to CMU Data Science Club
+			</a>
+			<h1 class="mt-8 text-4xl font-bold text-gray-900">
+				CMU Anomaly Hunter Challenge
+			</h1>
+		</header>
+
+		<main class="space-y-6 text-gray-700 leading-relaxed">
+			<p class="text-xl font-light">
+				A competition challenging students to build high-performance streaming algorithms
+				that process real-time data with optimal accuracy, latency, and efficiency.
+			</p>
+
+			<div class="border-l-4 border-gray-200 pl-6 my-8">
+				<p class="italic text-gray-600">
+					Coming soon. Join us in pushing the boundaries of real-time data processing
+					and algorithmic systems.
+				</p>
+			</div>
+
+			<div class="space-y-4">
+				<h2 class="text-2xl font-semibold text-gray-900">What to Expect</h2>
+				<ul class="list-disc list-inside space-y-2">
+					<li>Real-time streaming data challenges</li>
+					<li>System design and optimization</li>
+					<li>Performance-critical algorithm development</li>
+					<li>Live evaluation across multiple metrics</li>
+				</ul>
+			</div>
+
+			<p class="mt-8">
+				Questions or interested in sponsorship? Contact us at{" "}
+				<a
+					href="mailto:datascienceclub@cmu.edu"
+					class="text-gray-900 hover:text-gray-600 transition-colors underline"
+				>
+					datascienceclub@cmu.edu
+				</a>
+			</p>
+		</main>
+
+		<footer class="mt-16 pt-8 border-t border-gray-200 text-sm text-gray-500">
+			<p>© {new Date().getFullYear()} CMU Data Science Club</p>
+		</footer>
 	</body>
 </html>
